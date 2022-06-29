@@ -84,7 +84,7 @@ var allPlayersRef;
 function main() {
     ctx.beginPath();
     ctx.fillStyle = "#ffffff";
-    ctx.fillRect(0, 0, 400, 400);
+    ctx.fillRect(0, 0, 512, 512);
 
     for (var key in gamePlayers) {
         if (gamePlayers[key].self == false) {
